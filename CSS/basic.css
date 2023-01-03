@@ -1,0 +1,8 @@
+.blog{
+    border: 2px dashed blueviolet;
+    background-color: lightcyan;
+}
+li.hot{
+    border: 3px dotted yellow;
+    padding: 20px;
+}

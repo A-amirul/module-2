@@ -1,0 +1,17 @@
+body{
+    background-image: url(image/jhil_mypic.jpg);
+    background-size: cover;
+    background-color: white;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+h6{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    color: blue;
+}

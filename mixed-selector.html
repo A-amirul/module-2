@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selector learning</title>
+
+    <style>
+        .green{
+            color: green;
+        }
+        .red{
+            background-color: red;
+        }
+        
+
+        /*শুধু লিস্ট item এর  class টা hot টা সেটার পরিবর্তন হবে   */
+
+        li.hot{
+            color: blueviolet;
+        }
+        /* একই পরিবর্তন একাধিক ট্যাগ এর লাগবে সেক্ষেত্রে গ্রুপ selector ব্যবহার করবো। */
+        h2,h3{
+            background-color: bisque;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Mixed Selector</h1>
+    <h1 class="hot">This is Internal CSS</h1>
+
+    <p>CSS=<span class="green">cascading Style Sheet</span></p>
+    <p>Purpose making a website colorful</p>
+    <p>I am exploring <span class="green">CSS</span></p>
+
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam pariatur soluta iusto laboriosam voluptatem dignissimos voluptas aperiam animi velit ipsa!</h2>
+
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, fuga.</h3>
+    
+
+    <div class="red">
+        <h1>This is my Blog</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ullam dolor ea quisquam velit eaque voluptas quam rerum optio et!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo fugit illum corporis cumque mollitia vero nesciunt necessitatibus inventore ipsam et pariatur obcaecati quia nobis, assumenda eveniet? Ad, culpa nulla hic distinctio excepturi, tempora doloremque odit fugiat voluptatem in dolore! Inventore?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quaerat.</p>
+    </div>
+    
+    <ol>
+        <li>Inline CSS</li>
+        <li class="hot">Internal CSS</li>
+        <li>External CSS</li>
+    </ol>
+</body>
+</html>
